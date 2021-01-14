@@ -6,3 +6,6 @@
 ``
 gradle cucumberTests
 ``
+
+
+P.S: Due to some machine issue, I have not used lombok fully. Instead, created a file with plain getters and setters.
