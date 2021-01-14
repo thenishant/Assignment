@@ -18,10 +18,6 @@ public class LatestDateClient extends BaseClient {
         return getResponse(URL);
     }
 
-    public CurrentDateResponse getSpecificData(String date) {
-        return getResponse(getPasteDataHost() + "/" + date);
-    }
-
     private CurrentDateResponse getResponse(String URL) {
         Response response = given()
                 .contentType(ContentType.JSON)
