@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
-public class LatestDataClient extends BaseClient {
+public class LatestDateClient extends BaseClient {
     String latestRatesURL = getLatestDataHost();
 
 
